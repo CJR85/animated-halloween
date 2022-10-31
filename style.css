@@ -18,7 +18,7 @@
 .spider {
   position: absolute;
   top: 0;
-  animation: animateSpider 15s ease-in-out;
+  animation: animateSpider 15s ease-in-out infinite;
 }
 
 @keyframes animateSpider {
@@ -43,7 +43,15 @@
   100% {
     transform: translateY(-50px);
   }
-  100% {
+  50% {
     transform: translateY(50px);
   }
+}
+
+.pumpkin02 {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  animation: animatePumpkin 4s ease-in-out infinite;
+  scale: 0.5;
 }
