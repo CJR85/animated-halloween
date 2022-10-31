@@ -14,3 +14,19 @@
   align-items: center;
   background: #0b061f;
 }
+
+.spider {
+  position: absolute;
+  top: 0;
+  animation: animateSpider 15s ease-in-out;
+}
+
+@keyframes animateSpider {
+  0%,
+  100% {
+    transform: translateY(-500px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
