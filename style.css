@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -62,4 +64,12 @@
   height: 100%;
   object-fit: cover;
   mix-blend-mode: screen;
+}
+
+.text {
+  position: relative;
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 12vw;
+  font-family: 'Fruktur', cursive;
+  font-weight: 100;
 }
